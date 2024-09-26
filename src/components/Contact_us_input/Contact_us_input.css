@@ -1,0 +1,27 @@
+.contact-input {
+    padding: 20px;
+    margin: 0px 0; 
+}
+
+.contact-input label {
+    display: block; 
+    margin-bottom: 0px; 
+    font-weight: bold; 
+}
+
+.contact-input .required {
+    color: red; 
+}
+
+.input-field {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.input-field:focus {
+    border-color: #007bff; 
+    outline: none; 
+}

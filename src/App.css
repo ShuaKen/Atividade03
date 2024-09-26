@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; 
+}
+
+body {
+  font-family: sans-serif; 
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Estilos de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover bordas de imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remover estilo de links */
+a {
+  text-decoration: none;
+  color: inherit; /* Herda a cor do elemento pai */
+}
+
+/* Remover estilo de tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Remover estilos de botões */
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Adicionando um estilo padrão para inputs */
+input, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Opcional: ajuste no foco para acessibilidade */
+:focus {
+  outline: 2px dashed rgb(84, 84, 185); /* Pode ser ajustado conforme necessário */
+}
+
+h2 {
+  position: relative; 
+  text-align: center; 
+  margin: 20px 0; 
+  color: #5A5A5A;
+}
+
+h2::after {
+  content: ''; 
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  bottom: -10px; 
+  height: 2px; 
+  background-color: #333333 ; 
+  margin: auto; 
+  width: 100%; 
+}
+.App{
+  background-color: #F4F4F4;
+}

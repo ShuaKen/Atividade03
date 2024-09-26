@@ -1,0 +1,33 @@
+h2 {
+    margin-top: 70px;
+}
+.movies {
+    text-align: center; 
+}
+
+.lista-filmes {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 0 auto; 
+}
+
+.lista-filmes .item-lista-filmes {
+    width: calc(50% - 20px); 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px; 
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.lista-filmes .item-lista-filmes img {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: contain; 
+    border-radius: 8px; 
+}
